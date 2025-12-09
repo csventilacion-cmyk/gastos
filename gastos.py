@@ -14,7 +14,7 @@ st.set_page_config(
 # --- 2. SISTEMA DE SEGURIDAD (LOGIN) ---
 def check_password():
     """Retorna True si el usuario ingresó la contraseña correcta."""
-    SECRETO = "CS2026"  # Tu contraseña
+    SECRETO = "Hfsr.0517"  # Tu contraseña
 
     if "password_correct" not in st.session_state:
         st.session_state["password_correct"] = False
